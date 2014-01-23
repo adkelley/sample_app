@@ -7,12 +7,18 @@ group :development, :test do
 # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
 end
+
+gem 'growl'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
